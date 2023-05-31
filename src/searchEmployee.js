@@ -37,9 +37,33 @@ const professionalBoard = [
   },
 ];
 
+const findEmployeeByID = (id, employeeInfo) => {
+  for (let index = 0; index < professionalBoard.length; index += 1) {
+    const professional = professionalBoard[index];
+    if (professional.id === id) {
+      return professional[employeeInfo];
+    }
+  }
+
+  throw new Error('ID não identificada')
+}
+
 const searchEmployee = (id, employeeInfo) => {
+  if (!id || !employeeInfo) {
+    throw new Error('Informações invalidas');
+  }
+
+  const employee = findEmployeeByID(id, employeeInfo);
+
+  if (employee === undefined) {
+    throw new Error('Informação indisponível');
+  }
+
+  return employee;
   // Implemente seu código aqui
-  console.log(professionalBoard, id, employeeInfo);
+  // console.log(professionalBoard, id, employeeInfo);
 };
+
+//  console.log(searchEmployee('dfasdf', ''));
 
 module.exports = searchEmployee;
