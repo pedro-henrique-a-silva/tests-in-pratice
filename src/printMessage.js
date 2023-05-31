@@ -6,7 +6,7 @@ let info = {
 
 const printMessage = (characterInfo) => {
   if (typeof characterInfo !== 'object' || (!Object.keys(characterInfo).includes('personagem'))) {
-    throw new Error('objeto inválido.')
+    throw new Error('objeto inválido.');
   }
   // Implemente seu código aqui
   let result = `Boas vindas, ${characterInfo.personagem}`;
@@ -16,7 +16,6 @@ const printMessage = (characterInfo) => {
 
 try {
   console.log(printMessage('ola mundo'));
-
 } catch (e) {
   console.log(e.message);
 }

@@ -45,8 +45,8 @@ const findEmployeeByID = (id, employeeInfo) => {
     }
   }
 
-  throw new Error('ID não identificada')
-}
+  throw new Error('ID não identificada');
+};
 
 const searchEmployee = (id, employeeInfo) => {
   if (!id || !employeeInfo) {
@@ -60,10 +60,6 @@ const searchEmployee = (id, employeeInfo) => {
   }
 
   return employee;
-  // Implemente seu código aqui
-  // console.log(professionalBoard, id, employeeInfo);
 };
-
-//  console.log(searchEmployee('dfasdf', ''));
 
 module.exports = searchEmployee;
