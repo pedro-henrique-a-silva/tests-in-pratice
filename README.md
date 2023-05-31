@@ -50,9 +50,9 @@ Neste exercício, verificamos se você é capaz de:
 
 1. Clone o repositório
 
-- Use o comando: `git clone git@github.com:tryber/sd-0x-exercise-tests-in-practice`.
+- Use o comando: `git clone git@github.com:tryber/sd-033-a-exercise-tests-in-practice`.
 - Entre na pasta do repositório que você acabou de clonar:
-  - `cd sd-0x-exercise-tests-in-practice`
+  - `cd sd-033-a-exercise-tests-in-practice`
 
 2. Instale as dependências
 
@@ -87,7 +87,7 @@ Neste exercício, verificamos se você é capaz de:
 
 6. Crie um novo `Pull Request` _(PR)_
 
-- Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/betrybe/sd-0x-exercise-tests-in-practice/pulls)
+- Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/betrybe/sd-033-a-exercise-tests-in-practice/pulls)
 - Clique no botão verde _"New pull request"_
 - Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
 - Coloque um título para a sua _Pull Request_
@@ -97,7 +97,7 @@ Neste exercício, verificamos se você é capaz de:
 
 ![](/image/pull_request-img.png)
 
-- Volte até a [página de _Pull Requests_ do repositório](https://github.com/betrybe/sd-0x-exercise-tests-in-practice/pulls) e confira que o seu _Pull Request_ está criado
+- Volte até a [página de _Pull Requests_ do repositório](https://github.com/betrybe/sd-033-a-exercise-tests-in-practice/pulls) e confira que o seu _Pull Request_ está criado
 
 </details>
 
